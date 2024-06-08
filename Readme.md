@@ -1,7 +1,7 @@
 # Django Project with Docker
 
 ![Django](https://img.shields.io/badge/Django-5.0-green?style=for-the-badge&logo=django)
-![Docker](https://img.shields.io/badge/Docker-3.9-blue?style=for-the-badge&logo=docker)
+![Docker](https://img.shields.io/badge/Docker-26.1-blue?style=for-the-badge&logo=docker)
 ![Python](https://img.shields.io/badge/Python-3.20-blue?style=for-the-badge&logo=python)
 
 ## Introduction
