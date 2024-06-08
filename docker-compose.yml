@@ -1,0 +1,18 @@
+version: '3.9'
+
+networks:
+  app-py:
+
+services:
+  py-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-py-django
+    command: sh -c "if [ ! -f /source/manage.py ]; then django-admin startproject app /source; fi && python manage.py runserver 0.0.0.0:80"
+    volumes:
+      - ./source:/source
+    networks:
+      - app-py
+    ports:
+      - "80:80"
